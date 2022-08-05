@@ -1,0 +1,96 @@
+import QtQuick 2.12
+import QtGraphicalEffects 1.12
+
+//Example for QtGraphicalEffects
+
+Rectangle {
+    anchors.fill: parent
+    Column{
+        spacing: 150
+        anchors.centerIn: parent
+        Row{
+            spacing: 100
+            
+            Rectangle{
+                height: 200
+                width: 200
+                Image {
+                    id: butterfly
+                    anchors.centerIn: parent
+                    
+                    source: "images/butterfly.png"
+                    sourceSize: Qt.size(parent.width, parent.height)
+                    smooth: true
+                    visible: false
+                }
+                
+                DropShadow {
+                    anchors.fill: butterfly
+                    horizontalOffset: 30
+                    verticalOffset: 20
+                    radius: 8.0
+                    samples: 17
+                    color: "#80000000"
+                    source: butterfly
+                }
+            }
+            
+            Rectangle{
+                height: 200
+                width: 200
+                Image {
+                    id: dragon
+                    anchors.centerIn: parent
+                    
+                    source: "images/dragon.png"
+                    sourceSize: Qt.size(parent.width, parent.height)
+                    smooth: true
+                    visible: false
+                }
+                
+                DropShadow {
+                    anchors.fill: dragon
+                    
+                    color: "#ff9000"
+                    radius: 20
+                    samples: 24
+                    horizontalOffset: 0
+                    verticalOffset: 0
+                    spread: 0.2
+                    
+                    source: dragon
+                }
+            }
+            
+            Rectangle{
+                height: 200
+                width: 200
+                Image {
+                    id: trex
+                    anchors.centerIn: parent
+                    
+                    source: "images/trex.png"
+                    sourceSize: Qt.size(parent.width, parent.height)
+                    smooth: true
+                    visible: false
+                }
+                
+                DropShadow {
+                    anchors.fill: trex
+                    horizontalOffset: 20 
+                    radius: 16
+                    samples: 24
+                    color: "#000000"
+                    verticalOffset: 0
+                    spread: 0
+                    source: trex
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

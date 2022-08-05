@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>clockpics/arrow.png</file>
+        <file>clockpics/background.png</file>
+        <file>clockpics/center.png</file>
+        <file>clockpics/clock.png</file>
+        <file>clockpics/clock-night.png</file>
+        <file>clockpics/hour.png</file>
+        <file>clockpics/minute.png</file>
+        <file>clockpics/quit.png</file>
+        <file>clockpics/second.png</file>
+        <file>beispiele/bsp0.txt</file>
+        <file>beispiele/bsp1.txt</file>
+        <file>beispiele/bsp2.txt</file>
+        <file>beispiele/bsp3.txt</file>
+        <file>images/butterfly.png</file>
+        <file>beispiele/bsp5.txt</file>
+        <file>images/dragon.png</file>
+        <file>images/trex.png</file>
+        <file>fonts/fontello.ttf</file>
+        <file>beispiele/bsp4.txt</file>
+    </qresource>
+</RCC>

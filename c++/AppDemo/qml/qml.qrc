@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>IntroPage.qml</file>
+        <file>Main.qml</file>
+        <file>PersonPage.qml</file>
+        <file>MyMenu.qml</file>
+        <file>BasePage.qml</file>
+        <file>hmannheim_1.jpg</file>
+        <file>BreakFastPage.qml</file>
+        <file>DailyRoutinePage.qml</file>
+        <file>FreeTimePage.qml</file>
+        <file>loewenzahn.jpg</file>
+        <file>nature.jpg</file>
+        <file>personbg.jpg</file>
+        <file>SliderPage.qml</file>
+        <file>weather.jpg</file>
+        <file>plane.jpg</file>
+        <file>breakfast.jpg</file>
+        <file>TextFieldPage.qml</file>
+        <file>wallpaper.jpg</file>
+        <file>TabViewPage.qml</file>
+        <file>tabviewpic.jpg</file>
+    </qresource>
+</RCC>
